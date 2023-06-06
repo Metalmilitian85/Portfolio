@@ -21,7 +21,7 @@ function App() {
         <div>
         <h3 className='font-bold text-3xl'>Contact</h3>
           <div className='flex justify-center space-x-4'>
-            <img className='h-6 animate-spin' src="./public/emailicon.png" />
+            <img className='h-6 animate-spin' src="./emailicon.png" />
             <p> timward1985@gmail.com</p>
           </div>
           <p className='animate-type'>Linked-In</p>
