@@ -6,6 +6,7 @@ import About from './Components/About'
 import Projects from './Components/Projects'
 import Skills from './Components/Skills'
 import Contact from './Components/Contact'
+import Home from './Components/Home'
 
 function App() {
 
@@ -15,7 +16,7 @@ function App() {
         <BrowserRouter>
           <Navbar />
           <Routes>
-            <Route path="/" />
+            <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/projects" element={<Projects />} />
             <Route path="/skills" element={<Skills />} />
