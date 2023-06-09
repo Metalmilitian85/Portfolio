@@ -15,11 +15,11 @@ const Navbar = () => {
     <div className="flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4 text-blue font-bold">
         <h1 className="w-full text-3xl font-bold text-[#4bb3f8] hover:scale-105 duration-300">TIM WARD</h1>
         <ul className="hidden md:flex text-[#4bb3f8]">
-            <Link to='/'><li className="p-4">HOME</li></Link>
-            <Link to='/about'><li className="p-4">ABOUT</li></Link>
-            <Link to='/skills'><li className="p-4">SKILLS</li></Link>
-            <Link to='/projects'><li className="p-4">PROJECTS</li></Link>
-            <Link to='/contact'><li className="p-4">CONTACT</li></Link>
+            <Link to='/'><li className="p-4 hover:text-[#02daf7] hover:scale-105 duration-300">HOME</li></Link>
+            <Link to='/about'><li className="p-4 hover:text-[#02daf7] hover:scale-105 duration-300">ABOUT</li></Link>
+            <Link to='/skills'><li className="p-4 hover:text-[#02daf7] hover:scale-105 duration-300">SKILLS</li></Link>
+            <Link to='/projects'><li className="p-4 hover:text-[#02daf7] hover:scale-105 duration-300">PROJECTS</li></Link>
+            <Link to='/contact'><li className="p-4 hover:text-[#02daf7] hover:scale-105 duration-300">CONTACT</li></Link>
         </ul>
         <div onClick={handleNav} className="block md:hidden">
             {!nav ? <AiOutlineClose size={20} color='#4bb3f8'/> : <AiOutlineMenu size={20} color='#4bb3f8'/>}
