@@ -25,7 +25,7 @@ const Navbar = () => {
             {!nav ? <AiOutlineClose size={20} color='#4bb3f8'/> : <AiOutlineMenu size={20} color='#4bb3f8'/>}
         </div>
         <div className={!nav ? "fixed left-0 top-0 w-[40%] h-full border-r border-r-gray-900 bg-[#4bb3f8] ease-in-out duration-200" : "fixed left-[-100%]"}>
-          <h1 className="w-full text-3xl font-bold text-[#4bb3f8] m-4">TIM WARD</h1>
+          <h1 className="w-full text-3xl font-bold text-black-500 m-3 ml-8">MENU</h1>
           <ul className="uppercase p-4">
             <Link to='/'><li onClick={handleNav} className="p-4 border-b border-gray-600">HOME</li></Link>
             <Link to='/about'><li onClick={handleNav} className="p-4 border-b border-gray-600">ABOUT</li></Link>
