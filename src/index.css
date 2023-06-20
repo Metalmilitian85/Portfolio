@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Petit+Formal+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Trade+Winds&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -14,6 +15,13 @@ h1 {
 
 .project {
   font-family: "Petit Formal Script", cursive;
+  color: rgb(75 179 248);
+  font-weight: 700;
+  font-size: 50px;
+}
+
+.weather {
+  font-family: "Trade Winds", cursive;
   color: rgb(75 179 248);
   font-weight: 700;
   font-size: 50px;
