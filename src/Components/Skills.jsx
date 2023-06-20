@@ -8,7 +8,7 @@ function Skills() {
             Always willing to learn more/refine what I already know, and ready to welcome more skills 
             as they come.
             </p>
-          <div className='w-40 m-auto flex flex-col'>
+          <div className='w-40 m-auto flex flex-col '>
             <a href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5">
               <img className='h-40 w-40 mb-5 hover:opacity-80 opacity-1' src="./html.jpg" /></a>
             <a href="https://developer.mozilla.org/en-US/docs/Web/CSS">
