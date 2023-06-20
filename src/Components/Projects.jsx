@@ -4,7 +4,7 @@ function Projects() {
   return (
     <div className="text-center">
         <p className='p-10 text-[#4bb3f8] font-bold'>Projects</p>
-        <a href="https://incomparable-sherbet-60d556.netlify.app/" className="project" >Pet Adoption</a>
+        <a href="https://incomparable-sherbet-60d556.netlify.app/" target="_blank" className="project" >Pet Adoption</a>
     </div>
   )
 }
