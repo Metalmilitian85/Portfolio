@@ -7,6 +7,8 @@ function Projects() {
         <a href="https://incomparable-sherbet-60d556.netlify.app/" target="_blank" className="project" >Pet Adoption</a>
         <br></br>
         <a href="https://marvelous-dragon-48b7bb.netlify.app" target="_blank" className="weather" >Weather App</a>
+        <br></br>
+        <a href="https://prismatic-pasca-506ef1.netlify.app/" target="_blank" className="scrolls" >The Elder Scrolls</a>
     </div>
   )
 }

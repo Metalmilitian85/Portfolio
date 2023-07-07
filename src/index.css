@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Petit+Formal+Script&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Trade+Winds&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Wet+Paint&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -21,6 +22,12 @@ h1 {
 }
 
 .weather {
+  font-family: "Rubik Wet Paint", cursive;
+  color: rgb(75 179 248);
+  font-size: 50px;
+}
+
+.scrolls {
   font-family: "Trade Winds", cursive;
   color: rgb(75 179 248);
   font-weight: 700;
