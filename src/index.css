@@ -25,19 +25,19 @@ h1 {
 .weather {
   font-family: "Rubik Wet Paint", cursive;
   color: rgb(75 179 248);
-  font-size: 50px;
+  font-size: 35px;
 }
 
 .scrolls {
   font-family: "Trade Winds", cursive;
   color: rgb(75 179 248);
   font-weight: 700;
-  font-size: 50px;
+  font-size: 35px;
 }
 
 .burgers {
   font-family: "Caprasimo", cursive;
   color: rgb(75 179 248);
   font-weight: 700;
-  font-size: 50px;
+  font-size: 35px;
 }
