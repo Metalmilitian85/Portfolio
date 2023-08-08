@@ -3,7 +3,7 @@ import React from 'react'
 function Projects() {
   return (
     <div className="text-center">
-        <h1 className="pt-5 w-full text-2xl font-bold text-center text-[#4bb3f8] hover:scale-105 duration-300 mb-10">PROJECTS</h1>
+        <h1 className="pt-32 w-full text-2xl font-bold text-center text-[#4bb3f8] hover:scale-105 duration-300 mb-10">PROJECTS</h1>
         <div>
           <a href="https://incomparable-sherbet-60d556.netlify.app/" target="_blank" className="project" >Pet Adoption</a>
           <a href="https://incomparable-sherbet-60d556.netlify.app/" target="_blank">
