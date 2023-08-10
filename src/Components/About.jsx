@@ -5,7 +5,7 @@ export default function About() {
   return (
     <div>
         <h1 className="w-full pt-32 text-2xl font-bold text-center text-[#4bb3f8] hover:scale-105 duration-300">ABOUT</h1>
-          <div  className="p-10 text-[#4bb3f8] text-center font-bold">
+          <div  className="p-10 text-[#4bb3f8] text-center font-bold md:text-lg mx-7">
             <p>My name is Tim Ward and I'm from the Kansas City area. Growing up in the times of Geocities and Maxpages (dating myself I know!) 
               tampering with websites was definitely a hobby of mine. My friends and I would edit and add everything we could to see who would climb the rankings on Maxpages and be the most visited/liked! 
               That really seems like a lifetime ago, and boy do I wish I would have stuck with that route in life!</p>

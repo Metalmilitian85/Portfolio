@@ -4,7 +4,7 @@ function Skills() {
   return (
     <div>
                 <h1 className="w-full text-2xl text-center pt-32 font-bold text-[#4bb3f8] hover:scale-105 duration-300">SKILLS</h1>
-            <p className='p-10 text-[#4bb3f8] text-center font-bold'>The skills that I have acquired are in HTML, CSS, JS, REACT, and TAILWIND CSS. 
+            <p className='p-10 text-[#4bb3f8] text-center font-bold md:text-lg'>The skills that I have acquired are in HTML, CSS, JS, REACT, and TAILWIND CSS. 
             Always willing to learn more/refine what I already know, and ready to welcome more skills 
             as they come.
             </p>
