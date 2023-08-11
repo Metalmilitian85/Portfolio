@@ -32,7 +32,7 @@ const Text = () =>
             <p>My name is Tim Ward and I'm from the Kansas City area. Aspiring to become a Front-End Developer has been my main goal for a bit now, and I can't wait to see where this road takes me!
             </p>
             <br></br>
-            <div className="transition-all ease-in-out duration-500">
+            <div className="ease-in-out duration-500">
               {isVisible? <Text /> : null}
               <Link to="About" spy={true} smooth={true} offset={-80} duration={600}>
                 <button className="italic underline pb-7 hover:scale-105 duration-300 " onClick={onClick}>{isVisible? 'Read Less!' : 'Read More!'}</button>

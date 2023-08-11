@@ -11,8 +11,12 @@ const Navbar = () => {
     }
 
   return (
-    <div className="fixed flex justify-between items-center h-20 w-[100%] mx-auto px-4 bg-black text-sky-500 font-bold z-40 hover:cursor-pointer">
+    <div className="fixed flex justify-between items-center h-20 w-[100%] mx-auto px-4 bg-black text-sky-500 font-bold z-40">
         <Link to='About' spy={true} smooth={true} offset={-80} duration={500}><h1 className="w-full text-3xl font-bold text-sky-500 hover:animate-pulse">TIM WARD</h1></Link>
+        <div className="hidden md:flex mr-auto ml-7">
+          <button onClick={() => window.location = 'mailto:timward1985@gmail.com'}><img src="emailicon.png" className="h-6 rounded-full mr-6 hover:cursor-pointer" /></button>
+          <a href="https://www.linkedin.com/in/tim-ward-827b111ab/" target="_blank" ><img src="linkedin.png" className="h-6 hover:cursor-pointer" /></a>
+        </div>
         <ul className="hidden md:flex text-blue">
             <Link to='About' spy={true} smooth={true} offset={-80} duration={500}><li className="p-4 hover:text-[#02daf7] hover:scale-105 duration-300">ABOUT</li></Link>
             <Link to='Projects' spy={true} smooth={true} offset={-80} duration={500}><li className="p-4 hover:text-[#02daf7] hover:scale-105 duration-300">PROJECTS</li></Link>
@@ -29,6 +33,10 @@ const Navbar = () => {
             <Link to="Skills" spy={true} smooth={true} offset={-80} duration={500}><li onClick={handleNav} className="p-4 border-b border-gray-600 hover:cursor-pointer">SKILLS</li></Link>
             <Link to="Contact" spy={true} smooth={true} offset={-80} duration={500}><li onClick={handleNav} className="p-4 border-b border-gray-600 hover:cursor-pointer">CONTACT</li></Link>
           </ul>
+          <div className="flex mr-auto ml-7">
+            <button onClick={() => window.location = 'mailto:timward1985@gmail.com'}><img src="emailicon.png" className="h-6 rounded-full mr-6 hover:cursor-pointer" /></button>
+            <a href="https://www.linkedin.com/in/tim-ward-827b111ab/" target="_blank" ><img src="linkedin.png" className="h-6 hover:cursor-pointer" /></a>
+        </div>
         </div>
     </div>
   )
