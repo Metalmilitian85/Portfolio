@@ -26,7 +26,7 @@ const Text = () =>
 
   return (
   <div className="pt-24">
-    <div id="About" className="pt-7 text-black border-8 rounded-lg border-sky-600 mx-auto bg-sky-300 md:max-w-[90%]" >
+    <div id="About" className="pt-7 text-black border-8 shadow-xl shadow-cyan-500 rounded-lg border-sky-600 mx-auto bg-sky-300 md:max-w-[90%]" >
         <h1 className="w-full text-2xl font-bold text-center hover:scale-105 duration-300">ABOUT</h1>
           <div  className="pt-7 text-center font-bold md:text-lg mx-24">
             <p>My name is Tim Ward and I'm from the Kansas City area. Aspiring to become a Front-End Developer has been my main goal for a bit now, and I can't wait to see where this road takes me!

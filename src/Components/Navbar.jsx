@@ -22,7 +22,7 @@ const Navbar = () => {
         <div onClick={handleNav} className="block md:hidden">
             {!nav ? <AiOutlineClose size={20} color="[#4bb3f8]" /> : <AiOutlineMenu size={20} color="[#4bb3f8]" />}
         </div>
-        <div className={!nav ? "fixed left-0 top-0 w-[45%] h-full border-r border-r-gray-900 bg-[#4bb3f8] ease-in-out duration-200" : "fixed left-[-100%]"}>
+        <div className={!nav ? "fixed left-0 top-0 w-[45%] h-full border-r border-r-gray-900 bg-[#4bb3f8] ease-in-out duration-200 md:hidden" : "fixed left-[-100%] ease-in-out duration-200"}>
           <ul className="uppercase p-4 text-black">
             <Link to="About" spy={true} smooth={true} offset={-80} duration={500}><li onClick={handleNav} className="p-4 border-b border-gray-600 hover:cursor-pointer">ABOUT</li></Link>
             <Link to="Projects" spy={true} smooth={true} offset={-80} duration={500}><li onClick={handleNav} className="p-4 border-b border-gray-600 hover:cursor-pointer">PROJECTS</li></Link>

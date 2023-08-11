@@ -3,7 +3,7 @@ import React from 'react'
 function Skills() {
 
   return (
-    <div id="Skills" className="text-black pt-8 border-8 rounded-lg border-sky-600 bg-sky-300 mx-auto md:max-w-[90%]">
+    <div id="Skills" className="text-black pt-8 border-8 rounded-lg border-sky-600 bg-sky-300 mx-auto shadow-xl shadow-cyan-500 md:max-w-[90%]">
                 <h1 className="w-full text-2xl text-center font-bold hover:scale-105 duration-300">SKILLS</h1>
             <p className='py-7 text-center font-bold md:text-lg mx-24'>The skills that I have acquired are in HTML, CSS, JS, REACT, and TAILWIND CSS. 
             Always willing to learn more/refine what I already know, and ready to welcome more skills 
