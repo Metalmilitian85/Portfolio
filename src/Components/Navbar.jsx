@@ -11,7 +11,7 @@ const Navbar = () => {
     }
 
   return (
-    <div className="fixed flex justify-between items-center h-24 w-[100%] mx-auto px-4 bg-black text-sky-500 font-bold z-40 hover:cursor-pointer">
+    <div className="fixed flex justify-between items-center h-20 w-[100%] mx-auto px-4 bg-black text-sky-500 font-bold z-40 hover:cursor-pointer">
         <Link to='About' spy={true} smooth={true} offset={-80} duration={500}><h1 className="w-full text-3xl font-bold text-sky-500 hover:animate-pulse">TIM WARD</h1></Link>
         <ul className="hidden md:flex text-blue">
             <Link to='About' spy={true} smooth={true} offset={-80} duration={500}><li className="p-4 hover:text-[#02daf7] hover:scale-105 duration-300">ABOUT</li></Link>

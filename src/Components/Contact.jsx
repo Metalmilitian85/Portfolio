@@ -11,7 +11,7 @@ function Contact() {
           </div>
           <div className='flex justify-center p-2 space-x-3'>
             <img className='h-6 -z-10' src="./linkedin.png" />
-            <a href="https://www.linkedin.com/in/tim-ward-827b111ab/">Linked In</a>
+            <a href="https://www.linkedin.com/in/tim-ward-827b111ab/">LinkedIn</a>
           </div>
           <div className='flex justify-center p-2 space-x-3'>
             <img className='h-6 -z-10 rounded-full' src="./phone.jpg" />

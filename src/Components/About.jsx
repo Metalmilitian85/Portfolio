@@ -8,6 +8,9 @@ export default function About() {
 
 const Text = () => 
     <div className="pb-3">
+            <p>Growing up in the times of Geocities and Maxpages (dating myself I know!) 
+              tampering with websites was definitely a hobby of mine. My friends and I would edit and add everything we could to see who would climb the rankings on Maxpages and be the most visited/liked! 
+              That really seems like a lifetime ago, and boy do I wish I would have stuck with that route in life!</p>
             <p>Since then I have gotten my BA in Education, owned and ran my own company with a handful of employees, gotten married, and had an amazing son! All in a days work right?! Well not quite, 
               but I've definitely learned stuff along the way!</p>
             <br></br>
@@ -22,12 +25,12 @@ const Text = () =>
     </div>;
 
   return (
-    <div id="About" className="pt-32 text-black border-8 rounded-lg border-sky-600 mx-3 bg-sky-300" >
+  <div className="pt-24">
+    <div id="About" className="pt-7 text-black border-8 rounded-lg border-sky-600 mx-auto bg-sky-300 md:max-w-[90%]" >
         <h1 className="w-full text-2xl font-bold text-center hover:scale-105 duration-300">ABOUT</h1>
           <div  className="pt-7 text-center font-bold md:text-lg mx-24">
-            <p>My name is Tim Ward and I'm from the Kansas City area. Growing up in the times of Geocities and Maxpages (dating myself I know!) 
-              tampering with websites was definitely a hobby of mine. My friends and I would edit and add everything we could to see who would climb the rankings on Maxpages and be the most visited/liked! 
-              That really seems like a lifetime ago, and boy do I wish I would have stuck with that route in life!</p>
+            <p>My name is Tim Ward and I'm from the Kansas City area. Aspiring to become a Front-End Developer has been my main goal for a bit now, and I can't wait to see where this road takes me!
+            </p>
             <br></br>
             <div className="transition-all ease-in-out duration-500">
               {isVisible? <Text /> : null}
@@ -37,5 +40,6 @@ const Text = () =>
             </div>
           </div>
     </div>
+  </div>
   )
 }
