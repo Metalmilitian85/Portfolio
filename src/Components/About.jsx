@@ -22,7 +22,7 @@ const Text = () =>
     </div>;
 
   return (
-    <div id="About" className="pt-32 bg-[#4bb3f8] text-black">
+    <div id="About" className="pt-32 text-black border-8 rounded-lg border-sky-600 mx-3 bg-sky-300" >
         <h1 className="w-full text-2xl font-bold text-center hover:scale-105 duration-300">ABOUT</h1>
           <div  className="pt-7 text-center font-bold md:text-lg mx-24">
             <p>My name is Tim Ward and I'm from the Kansas City area. Growing up in the times of Geocities and Maxpages (dating myself I know!) 
