@@ -1,15 +1,13 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client';
+import React, { useState} from 'react'
+import { Link } from 'react-scroll';
 
 export default function About() {
-  return (
-    <div>
-        <h1 className="w-full pt-32 text-2xl font-bold text-center text-[#4bb3f8] hover:scale-105 duration-300">ABOUT</h1>
-          <div  className="p-10 text-[#4bb3f8] text-center font-bold md:text-lg mx-7">
-            <p>My name is Tim Ward and I'm from the Kansas City area. Growing up in the times of Geocities and Maxpages (dating myself I know!) 
-              tampering with websites was definitely a hobby of mine. My friends and I would edit and add everything we could to see who would climb the rankings on Maxpages and be the most visited/liked! 
-              That really seems like a lifetime ago, and boy do I wish I would have stuck with that route in life!</p>
-            <br></br>
+  const [isVisible, setVisible] = useState(true);
+
+  const onClick = () => setVisible(!isVisible);
+
+const Text = () => 
+    <div className="pb-3">
             <p>Since then I have gotten my BA in Education, owned and ran my own company with a handful of employees, gotten married, and had an amazing son! All in a days work right?! Well not quite, 
               but I've definitely learned stuff along the way!</p>
             <br></br>
@@ -21,6 +19,22 @@ export default function About() {
             <br></br>
             <p>My Front-End journey has been exciting so far, and I'm even MORE excited to keep building upon the knowledge that I've gained so far! After I get more settled in the FE area my next goal is to go 
               Full-Stack. Keep your goals centered and your eyes on the prize. A little bit of coding every day can go a long way in the grand aspect of it all. Thanks for reading!</p>
+    </div>;
+
+  return (
+    <div id="About" className="pt-32 bg-[#4bb3f8] text-black">
+        <h1 className="w-full text-2xl font-bold text-center hover:scale-105 duration-300">ABOUT</h1>
+          <div  className="pt-7 text-center font-bold md:text-lg mx-24">
+            <p>My name is Tim Ward and I'm from the Kansas City area. Growing up in the times of Geocities and Maxpages (dating myself I know!) 
+              tampering with websites was definitely a hobby of mine. My friends and I would edit and add everything we could to see who would climb the rankings on Maxpages and be the most visited/liked! 
+              That really seems like a lifetime ago, and boy do I wish I would have stuck with that route in life!</p>
+            <br></br>
+            <div className="transition-all ease-in-out duration-500">
+              {isVisible? <Text /> : null}
+              <Link to="About" spy={true} smooth={true} offset={-80} duration={600}>
+                <button className="italic underline pb-7" onClick={onClick}>{isVisible? 'Read Less!' : 'Read More!'}</button>
+              </Link>
+            </div>
           </div>
     </div>
   )

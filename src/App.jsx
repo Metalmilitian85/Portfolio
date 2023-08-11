@@ -7,6 +7,7 @@ import Projects from './Components/Projects'
 import Skills from './Components/Skills'
 import Contact from './Components/Contact'
 import Home from './Components/Home'
+import ScrollToTop from './Components/ScrollToTop'
 
 function App() {
 
@@ -14,7 +15,12 @@ function App() {
     <div>
       <div>
         <BrowserRouter>
+          <ScrollToTop />
           <Navbar />
+          <About />
+          <Projects />
+          <Skills />
+          <Contact />
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
