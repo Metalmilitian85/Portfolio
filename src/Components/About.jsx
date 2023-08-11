@@ -35,7 +35,7 @@ const Text = () =>
             <div className="transition-all ease-in-out duration-500">
               {isVisible? <Text /> : null}
               <Link to="About" spy={true} smooth={true} offset={-80} duration={600}>
-                <button className="italic underline pb-7" onClick={onClick}>{isVisible? 'Read Less!' : 'Read More!'}</button>
+                <button className="italic underline pb-7 hover:scale-105 duration-300 " onClick={onClick}>{isVisible? 'Read Less!' : 'Read More!'}</button>
               </Link>
             </div>
           </div>
