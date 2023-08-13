@@ -2,6 +2,7 @@ import React, { useState} from 'react'
 import { Link } from 'react-scroll';
 
 export default function About() {
+
   const [isVisible, setVisible] = useState(false);
 
   const onClick = () => setVisible(!isVisible);
