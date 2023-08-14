@@ -16,7 +16,6 @@ function Skills() {
   const hiddenElements = document.querySelectorAll(".hide");
   hiddenElements.forEach((el) => observer.observe(el))
 
-
   return (
     <div id="Skills" className="text-black pt-8 border-2 bg-opacity-75 rounded-lg border-sky-600 bg-sky-300 mx-auto shadow-xl shadow-cyan-500 md:max-w-[90%]">
                 <h1 className="w-full text-2xl text-center font-bold hover:scale-105 duration-300">SKILLS</h1>
