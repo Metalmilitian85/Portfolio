@@ -3,6 +3,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Trade+Winds&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Rubik+Wet+Paint&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Caprasimo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -24,7 +25,7 @@ body::after {
 }
 
 h1 {
-  font-family: "Permanent Marker", cursive;
+  font-family: "Rubik", sans-serif;
 }
 
 .project {

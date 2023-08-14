@@ -1,9 +1,14 @@
-import React, {useState} from 'react'
+import Aos from 'aos'
+import React, {useEffect, useState} from 'react'
 import {AiOutlineClose, AiOutlineMenu} from 'react-icons/ai'
 import { Link } from 'react-scroll'
 import useLocalStorage from 'use-local-storage'
 
 const Navbar = () => {
+
+  useEffect(() => {
+    Aos.init();
+  }, [])
 
     const [nav, setNav] = useState(true)
 
