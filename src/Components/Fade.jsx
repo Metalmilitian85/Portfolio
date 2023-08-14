@@ -19,7 +19,7 @@ export default function Fade() {
   return (
     <div className="text-white text-3xl text-center">
         <h1 className="hide">Booooooooo</h1>
-        <h1 className="my-24">Space</h1>
+        <h1 className="my-24">Space 2</h1>
     </div>
   )
 }
