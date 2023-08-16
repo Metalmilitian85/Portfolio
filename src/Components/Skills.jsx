@@ -35,6 +35,10 @@ function Skills() {
             <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
               <img className='mx-12 h-40 w-40 mb-5 hover:opacity-80 opacity-1 border-4 hover:scale-105 duration-300 rounded-lg border-yellow-200' src="./js.jpg" data-aos="fade-right"/></a>
           </div>
+          <div className="logo">
+            <a href="https://www.github.com" target="_blank">
+              <img className='mx-12 h-40 w-40 mb-5 hover:opacity-80 opacity-1 border-4 hover:scale-105 duration-300 rounded-lg border-gray-400' src="./githublogo.jpg" data-aos="fade-right"/></a>
+          </div>
         </div>
     </div>
   )
