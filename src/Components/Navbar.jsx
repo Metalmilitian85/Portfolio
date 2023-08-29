@@ -47,10 +47,9 @@ const Navbar = () => {
             <Link to="Skills" spy={true} smooth={true} offset={-80} duration={500}><li onClick={handleNav} className="p-4 border-b border-gray-600 hover:cursor-pointer">SKILLS</li></Link>
             <Link to="Contact" spy={true} smooth={true} offset={-80} duration={500}><li onClick={handleNav} className="p-4 border-b border-gray-600 hover:cursor-pointer">CONTACT</li></Link>
           </ul>
-          <div className="flex justify-between mx-10">
+          <div className="flex justify-center space-x-10">
             <a href="https://www.linkedin.com/in/tim-ward-827b111ab/" target="_blank" ><img src="linkedin.png" className="h-6 hover:cursor-pointer" /></a>
             <a href="https://github.com/Metalmilitian85?tab=repositories" target="_blank" ><img src="github.png" className="h-6 hover:cursor-pointer rounded-full" /></a>
-            <button onClick={() => window.location = 'mailto:timward1985@gmail.com'}><img src="emailicon.png" className="h-6 rounded-full hover:cursor-pointer" /></button>
         </div>
         </div>
     </div>
