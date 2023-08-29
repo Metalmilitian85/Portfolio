@@ -2,7 +2,6 @@ import Aos from 'aos'
 import React, {useEffect, useState} from 'react'
 import {AiOutlineClose, AiOutlineMenu} from 'react-icons/ai'
 import { Link } from 'react-scroll'
-import useLocalStorage from 'use-local-storage'
 
 const Navbar = () => {
 
@@ -15,15 +14,7 @@ const Navbar = () => {
     const handleNav = () => {
         setNav(!nav)
     }
-
-    const [ theme, setTheme ] = useLocalStorage("theme" ? "dark" : "light")
-
-    const switchTheme = () => {
-      const newTheme = theme === "light" ? "dark" : "light";
-      setTheme(newTheme)
-    }
   
-
   return (
     <div className="fixed flex justify-between items-center h-20 w-[100%] mx-auto px-4 bg-black text-sky-500 font-bold z-10">
         <Link to='About' spy={true} smooth={true} offset={-80} duration={500}><h1 className="w-full text-3xl font-bold text-sky-500 hover:animate-pulse hover:cursor-pointer">TIM WARD</h1></Link>

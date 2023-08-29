@@ -33,7 +33,7 @@ export const Email = () => {
       />
       <textarea 
         name="message" 
-        className='h-[100px] rounded-md border-2 border-[#4bb3f8]'
+        className='h-[200px] rounded-md border-2 border-[#4bb3f8]'
         placeholder='Send me a message!'
       />
       <input type="submit" value="Send" className="font-semibold w-16 mx-auto mt-7 rounded-md bg-sky-300 hover:cursor-pointer hover:border-sky-800 hover:bg-sky-500 border-2 border-sky-600" />
